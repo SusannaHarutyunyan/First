@@ -5,10 +5,7 @@ require_once('Car.php');
 class Mercedes extends Car
 {
 
-    public function getFullName(): string
-    {
-        return 'Model is:' . $this->getModel() . '<br> Name is: ' . Car::getFullName();
-    }
+
 
     public function getModel(): string
     {

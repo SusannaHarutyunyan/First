@@ -12,11 +12,11 @@ rsort($arr);
 $arr = array_values($arr);
 ?>
 <table border=1>
-    <? foreach ($arr as $key => $value): ?>
+    <?php foreach ($arr as $key => $value): ?>
         <tr>
-            <td><?= $key ?></td>
+            <td><?= $key + 1 ?></td>
             <td><?= $value ?></td>
         </tr>
-    <? endforeach; ?>
+    <?php endforeach; ?>
 </table>
 

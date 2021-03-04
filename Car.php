@@ -23,8 +23,7 @@ abstract class Car
 
     public function getFullName(): string
     {
-        return $this->name;
+        return 'Model is:' . $this->getModel() . "<br> Name is: $this->name";
     }
-
     abstract public function getModel(): string;
 }
